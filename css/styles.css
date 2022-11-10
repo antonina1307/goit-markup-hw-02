@@ -1,6 +1,7 @@
 
 .content-body{
-        font-family: 'Roboto';
+        font-family: 'Roboto',
+        sans-serif;
         
 }
 .list-style{
@@ -153,21 +154,59 @@ a.link-page-tel{
         color: #757575;
 }
     .link-bottom a {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.5;
-            letter-spacing: 0.03em;
-            color: rgba(255, 255, 255, 0.6);
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 1.5;
+         letter-spacing: 0.03em;
+         color: rgba(255, 255, 255, 0.6);
 }
         
     .footer-section{
-            background: #2F303A;
+         background: #2F303A;
 }
     .header-logo-footer{
-            color: white;
-
-
+         color: white;
 }
+<!--portfolio--
+
+.button-filtr{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.title-block{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;  
+    color: #212121;
+}
+.text-block{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        color: #757575;
+}
+.button-blue{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.button-blue:hover{
+     color: white;
+}
+
+.button-blue:focus{
+     color: #212121;
+}
+
+
 
 
    
