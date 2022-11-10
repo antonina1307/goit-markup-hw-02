@@ -89,6 +89,7 @@ a.link-page-tel{
         text-align: center;
         color: white;
         background: #2196F3;
+        cursor: pointer;
           
  }
     .main-button:hover{
@@ -167,7 +168,7 @@ a.link-page-tel{
     .header-logo-footer{
          color: white;
 }
-<!--portfolio--
+/* <!--portfolio-- */
 
 .button-filtr{
         font-weight: 500;
