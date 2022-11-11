@@ -18,16 +18,6 @@ a.header-logo {
 .header-logo {
   color: black;
 }
-.site-nav-fst {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.site-nav-fst:hover {
-  color: #2196f3;
-}
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -35,23 +25,18 @@ a.header-logo {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.site-nav:hover {
+.site-nav:hover,
+.site-nav:focus, 
+.site-nav-act{
   color: #2196f3;
 }
-.site-nav:focus {
-  color: #21f391;
-}
-a.link-page-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02;
-  color: #212121;
-}
+
+
 a.link-page-mail:hover {
   color: #2196f3;
 }
-a.link-page-tel {
+a.link-page-tel,
+a.link-page-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,12 +67,8 @@ a.link-page-tel {
   color: white;
   background: #2196f3;
   cursor: pointer;
-}
-.main-button:hover {
-  background: #2f303a;
-}
-.main-button:focus {
-  background-color: teal;
+  border: none;
+  font-family: inherit;
 }
 .features {
   font-weight: 700;
@@ -168,6 +149,10 @@ a.link-page-tel {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  background: #F5F4FA;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
 }
 .title-block {
   font-weight: 700;
@@ -181,17 +166,13 @@ a.link-page-tel {
   line-height: 1.9;
   color: #757575;
 }
-.button-blue {
+.button-filtr:hover,
+.button-filtr:focus
+ {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   color: #ffffff;
   background-color: #2196f3;
-}
-.button-blue:hover {
-  color: white;
-}
-.button-blue:focus {
-  color: #212121;
 }
