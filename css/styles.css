@@ -64,6 +64,10 @@ a.link-page-tel{
         letter-spacing: 0.02em;
         color: #757575;
 }
+.link-page-tel:hover{
+        color: #2196F3;
+
+}
 .main-section{
         background: #2F303A;
 }
