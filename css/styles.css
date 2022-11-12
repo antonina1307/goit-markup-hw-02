@@ -140,6 +140,10 @@ a.link-page-mail:hover {
 
 .footer-section {
   background: #2f303a;
+  
+}
+.footer-section a{
+  cursor: default;
 }
 .header-logo-footer {
   color: white;
