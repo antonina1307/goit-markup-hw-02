@@ -23,14 +23,14 @@ a.header-logo {
   color: black;
 }
 .site-nav {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   color: #212121;
   text-decoration: none;
-
 }
+
 .site-nav:hover,
 .site-nav:focus, 
 .site-nav-act{
@@ -132,12 +132,14 @@ a.link-page-mail:hover {
   color: #757575;
 }
 .link-bottom a {
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-section {
   background: #2f303a;
   
@@ -179,6 +181,7 @@ a.link-page-mail:hover {
   font-size: 18px;
   line-height: 2;
   color: #212121;
+  letter-spacing: 0.06em;
 }
 
 .text-block {
@@ -186,4 +189,5 @@ a.link-page-mail:hover {
   font-size: 16px;
   line-height: 1.9;
   color: #757575;
+  letter-spacing: 0.03em;
 }
